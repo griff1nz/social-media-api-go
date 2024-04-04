@@ -1,2 +1,3 @@
 # social-media-api-go
-My Social Media API project, rewritten in Go.
+This will eventually be my Social Media API project, rewritten in Go.
+
