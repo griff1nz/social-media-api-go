@@ -10,7 +10,7 @@ import (
 
 const uri = "mongodb://localhost:27017"
 
-func main() {
+func connection() {
 	serverAPI:=options.ServerAPI(options.ServerAPIVersion1)
 	opts := options.Client().ApplyURI(uri).SetServerAPIOptions(serverAPI).SetTimeout(10* time.Second)
 
@@ -30,5 +30,7 @@ func main() {
 		panic(err)
 	}
 	fmt.Println("You are connected to MongoDB")
+
+	
 	
 }
